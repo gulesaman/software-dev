@@ -20,3 +20,10 @@ def divide(x, y):
     return x / y
 
 print("testing versions")
+
+
+def divide(x, y):
+    """Divide Function"""
+    if y == 0:
+        raise ValueError('Can not divide by zero!')
+    return x / y
